@@ -13,7 +13,7 @@ This is a network sniffer implemented using sockets in Python. It is compatible 
 
 1. **Clone the repository**:
     \`\`\`bash
-    git clone https://github.com/your-username/network-sniffer.git
+    git clone https://github.com/Omarallaham58/CodeAlpha_Network_Sniffer.git
     cd network-sniffer
     \`\`\`
 
