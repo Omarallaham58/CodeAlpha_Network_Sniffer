@@ -14,28 +14,29 @@ This is a network sniffer implemented using sockets in Python. It is compatible 
 1. **Clone the repository**:
     \`\`\`bash
     git clone https://github.com/Omarallaham58/CodeAlpha_Network_Sniffer.git
+   
     cd network-sniffer
     \`\`\`
 
-2. **Ensure the \`list_interfaces\` script is executable**:
-    \`\`\`bash
+3. **Ensure the \`list_interfaces\` script is executable**:
+    \`\`\`
     chmod +x list_interfaces
     \`\`\`
 
-3. **Install any necessary Python packages**:
+4. **Install any necessary Python packages**:
     The script primarily uses standard libraries, but you may need additional packages depending on your environment.
 
 ## Usage
 
 1. **Run the network sniffer**:
-    \`\`\`bash
-    sudo python network_sniffer.py <interface>
+    \`\`\`
+    sudo python3 network_sniffer.py <interface>
     \`\`\`
     Replace \`<interface>\` with the name of the network interface you want to capture traffic on (e.g., \`eth0\`).
 
 2. **Example**:
-    \`\`\`bash
-    sudo python network_sniffer.py eth0
+    \`\`\`
+    sudo python3 network_sniffer.py eth0
     \`\`\`
 
 
